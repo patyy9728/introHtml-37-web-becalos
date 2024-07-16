@@ -1,0 +1,95 @@
+
+/*importar fuente Roboto*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    background: rgb(241,222,0);
+background: linear-gradient(180deg, rgba(241,222,0,1) 0%, rgba(250,255,163,1) 74%);
+    font-family: "Roboto", sans-serif;
+    color: black;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+nav{
+height: 57px;
+margin: 0px 30px;
+padding: 0px 10px;
+font-weight: 600;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: 10px;
+background: #ffffff43;
+border-radius: 16px;
+border: 1px solid white;
+}
+
+.right{
+    display: flex;
+}
+nav .right a{
+    margin:0px 10px;
+    text-align: center;
+}
+nav .right a:hover{
+color: white
+}
+nav .right a p{
+    margin: 0;
+    font-size: 14px;
+}
+.about-me{
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+}
+.about-me .description{
+    display: flex;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.img-profile{
+    width: 200px;
+    border-radius: 50%;
+}
+.links a{
+    border: 2px solid white;
+    padding: 10px;
+    background: #ffffff43;
+    border-radius: 10px;
+    font-weight: 600;
+    margin: 0px 10px;
+}
+.links a span{
+    padding-left: 3px;
+}
+
+.links a:hover{
+    background-color: white;
+    margin: 0px 20px;
+    transition: .5s ease;
+}
+.content-page{
+    padding: 0px 40px;
+}
+.celdas{
+    display: flex;
+    padding: 10px;
+}
+.celdas .celda{
+    text-align: center;
+}
+.celda .javascript{
+    padding: 10px 0px;
+}
