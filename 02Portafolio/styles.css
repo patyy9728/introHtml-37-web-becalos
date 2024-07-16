@@ -85,6 +85,7 @@ nav .right a p{
 }
 .celdas{
     display: flex;
+    justify-content: space-around;
     padding: 10px;
 }
 .celdas .celda{
@@ -92,4 +93,7 @@ nav .right a p{
 }
 .celda .javascript{
     padding: 10px 0px;
+}
+.name-testimony{
+text-align: end;
 }
