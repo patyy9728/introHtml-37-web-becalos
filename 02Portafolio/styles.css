@@ -94,6 +94,33 @@ nav .right a p{
 .celda .javascript{
     padding: 10px 0px;
 }
+.cards{
+    display: flex;
+}
+.cards .card{
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+}
+.card .image-profile{
+    display: flex;
+    justify-content: center;
+}
+.card img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 100%;
+}
 .name-testimony{
 text-align: end;
+font-weight: 500;
+}
+.contacto .celda i{
+    font-size: 30px;
+}
+.contacto .celda span{
+padding: 5px;
+font-size: 20px;
 }
